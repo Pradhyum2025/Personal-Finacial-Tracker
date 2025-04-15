@@ -74,11 +74,11 @@ export default function BudgetInsights({ transactions, budgets }) {
         </span>
         </p>
     } else if (percentage > 80) {
-      return <p>You have used &#8377;
+      return <p>You have used &nbsp;
         <span>
         {percentage.toFixed(0)}
         </span>
-        of your budget
+        % of your budget
         </p>
      
     } else {
